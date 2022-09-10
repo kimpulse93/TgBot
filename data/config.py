@@ -1,0 +1,6 @@
+import os
+
+
+BOT_TOKEN = '5458224579:AAEeqifyWI1EOtqB9E1SBZ9Ec3Pj4ie3QQ0'
+
+admins_id = [1356680195,]
