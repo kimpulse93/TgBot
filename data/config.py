@@ -1,6 +1,11 @@
 import os
+from dotenv import load_dotenv
 
 
-BOT_TOKEN = '5458224579:AAEeqifyWI1EOtqB9E1SBZ9Ec3Pj4ie3QQ0'
+load_dotenv()
 
-admins_id = [1356680195,]
+BOT_TOKEN = os.getenv('BOT_TOKEN')
+
+admins_id = [
+    1356680195,
+]
